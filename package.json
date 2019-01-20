@@ -1,6 +1,11 @@
 {
   "name": "vue-firebase",
   "version": "0.1.0",
+  "author": {
+    "name": "KansasMyers",
+    "email": "kansasmyers360@gmail.com"
+  },
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
