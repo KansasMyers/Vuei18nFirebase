@@ -9,14 +9,7 @@ import firebase from 'firebase'
 Vue.config.productionTip = false
 
 // Initialize Firebase
-let config = {
-  apiKey: "AIzaSyDMO3CStH77gjauHJOoBhLBc8YfkAHS-lc",
-  authDomain: "vueawsome.firebaseapp.com",
-  databaseURL: "https://vueawsome.firebaseio.com",
-  projectId: "vueawsome",
-  storageBucket: "",
-  messagingSenderId: "716128025168"
-}
+let config = {}
 firebase.initializeApp(config)
 
 new Vue({
