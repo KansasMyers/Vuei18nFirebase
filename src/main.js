@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+
 import router from './router'
+import i18n from './i18n'
+
 import firebase from 'firebase'
 
 Vue.config.productionTip = false
@@ -18,5 +21,6 @@ firebase.initializeApp(config)
 
 new Vue({
   router,
+  i18n,
   render: h => h(App)
 }).$mount('#app')

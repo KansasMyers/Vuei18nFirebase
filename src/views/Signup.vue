@@ -1,13 +1,13 @@
 <template>
   <div class="signup">
-    <h3>Registro</h3>
-    <input v-model="email" type="email" placeholder="Email">
+    <h3>{{ $t("signup.title") }}</h3>
+    <input v-model="email" type="email" :placeholder="$t('signup.placeEmail')">
     <br>
-    <input v-model="password" type="password" placeholder="Senha">
+    <input v-model="password" type="password" :placeholder="$t('signup.placePass')">
     <br>
-    <button @click="signup">Registrar</button>
+    <button @click="signup">{{ $t("signup.btnSignup") }}</button>
     <p>
-      <router-link to="login">Já possui um cadastro?</router-link>
+      <router-link to="login">{{ $t("signup.message") }}?</router-link>
     </p>
   </div>
 </template>
