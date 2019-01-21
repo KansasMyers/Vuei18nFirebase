@@ -1,8 +1,7 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <router-view/>
-  </div>
+<template lang='pug'>
+  div#app
+    img(alt="Vue logo" src="./assets/logo.png")
+    router-view
 </template>
 
 <style lang="scss">

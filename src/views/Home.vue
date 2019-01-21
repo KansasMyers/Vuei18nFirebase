@@ -1,8 +1,7 @@
-<template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App Firebase app"/>
-    <button @click="logout()">Logout</button>
-  </div>
+<template lang='pug'>
+  div.home
+    HelloWorld(msg="Welcome to Your Vue.js App Firebase app")
+    button(@click="logout()") Logout
 </template>
 
 <script>

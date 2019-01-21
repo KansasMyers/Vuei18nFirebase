@@ -1,15 +1,13 @@
-<template>
-  <div class="login">
-    <h3>{{ $t("login.title") }}</h3>
-    <input v-model="email" type="email" :placeholder="$t('login.placeEmail')">
-    <br>
-    <input v-model="password" type="password" :placeholder="$t('login.placePass')">
-    <br>
-    <button @click="login">{{ $t("login.btnLogin") }}</button>
-    <p>
-      <router-link to="signup">{{ $t("login.message") }}?</router-link>
-    </p>
-  </div>
+<template lang='pug'>
+  div.login
+    h3 {{ $t("login.title") }}
+    input(v-model="email" type="email" :placeholder="$t('login.placeEmail')")
+    br
+    input(v-model="password" type="password" :placeholder="$t('login.placePass')")
+    br
+    button(@click="login") {{ $t("login.btnLogin") }}
+    p
+      router-link(to="signup") {{ $t("login.message") }}?
 </template>
 
 <script>
