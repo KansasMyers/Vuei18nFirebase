@@ -1,7 +1,9 @@
 # (Vue + Vue-i18n + Firebase Auth) = Vuei18nFirebase
 
 A simple project created using vue-cli where it will authenticate a user using Firebase.
-Supported Languages in Vue-i18n: en-US / pt-BR
+Supported Languages in Vue-i18n: en-US / pt-BR.
+
+Extras: Scss
 
 ## Project setup
 ```
