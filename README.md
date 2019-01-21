@@ -3,7 +3,7 @@
 A simple project created using vue-cli where it will authenticate a user using Firebase.
 Supported Languages in Vue-i18n: en-US / pt-BR.
 
-Extras: Scss
+Extras: SCSS, PUG.
 
 ## Project setup
 ```
